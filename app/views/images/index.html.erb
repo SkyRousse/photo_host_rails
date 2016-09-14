@@ -1,0 +1,8 @@
+<h1>Index of Images</h1>
+
+<ul>
+  <% @images.each do |image| %>
+    <li><h3><%= link_to image.title user_image_path(image) %></h3></li>
+  <% end %>
+
+</ul>
