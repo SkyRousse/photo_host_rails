@@ -1,0 +1,16 @@
+<h1>Upload a New Image</h1>
+
+<%= form_for @image, url: new_user_image_path(current_user, @image), method: "put" do |f|%>
+
+  <div class="form-group">
+      <%= f.label :image, class: 'control-label'  %>
+      <div class="col-sm-6">
+          <%= f.file_field :image %>
+      </div>
+
+      <%= f.submit 'Upload' %>
+  </div>
+
+<% end %>
+
+<%= link_to "Back", '/' %>

@@ -1,2 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar-brand > img {
+  max-height: 40px;
+}
+
+.navbar-brand {
+  padding-top: 5px;
+}
