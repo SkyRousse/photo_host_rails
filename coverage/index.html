@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>Code coverage for Photo-host-rails</title>
+    <title>Code coverage for Photo host rails</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.10.0/application.js' type='text/javascript'></script>    
     <link href='./assets/0.10.0/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_green.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_yellow.png" />
     <link rel="icon" type="image/png" href="./assets/0.10.0/favicon.png" />
   </head>
   
@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-09-14T11:46:24-07:00">2016-09-14T11:46:24-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-09-15T16:27:12-07:00">2016-09-15T16:27:12-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">100.0%</span></span>
+    (<span class="covered_percent"><span class="yellow">85.54%</span></span>
      covered at
      <span class="covered_strength">
-       <span class="green">
-         1.06
+       <span class="red">
+         0.9
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>31</b> files in total.
-    <b>115</b> relevant lines. 
-    <span class="green"><b>115</b> lines covered</span> and
-    <span class="red"><b>0</b> lines missed </span>
+    <b>34</b> files in total.
+    <b>166</b> relevant lines. 
+    <span class="green"><b>142</b> lines covered</span> and
+    <span class="red"><b>24</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -51,7 +51,7 @@
     <tbody>
       
       <tr>
-        <td class="strong"><a href="#2467f6da0ec3d165687bcbe501624bd2ca82c069" class="src_link" title="app/channels/application_cable/channel.rb">app/channels/application_cable/channel.rb</a></td>
+        <td class="strong"><a href="#0b2983e0444fae50ff9f1ad3ccc885a9801b7dd7" class="src_link" title="app/channels/application_cable/channel.rb">app/channels/application_cable/channel.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>4</td>
         <td>2</td>
@@ -61,7 +61,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#f59e0189e25f53e8e7a9822f7f56220bd31ccf96" class="src_link" title="app/channels/application_cable/connection.rb">app/channels/application_cable/connection.rb</a></td>
+        <td class="strong"><a href="#4e09c5e19c96d4630907cb9fa54e38d673f08217" class="src_link" title="app/channels/application_cable/connection.rb">app/channels/application_cable/connection.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>4</td>
         <td>2</td>
@@ -71,97 +71,107 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#7363bc8322f61371d61512a9975b2a9048dde158" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>3</td>
-        <td>2</td>
-        <td>2</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#28b01e488ff41786a4f249c22a295d25c0bcca3f" class="src_link" title="app/controllers/images_controller.rb">app/controllers/images_controller.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td class="strong"><a href="#b3ecf14e13f2cdce714e797d3c6c1dd5fe629e2a" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
+        <td class="red strong">71.43 %</td>
         <td>12</td>
         <td>7</td>
+        <td>5</td>
+        <td>2</td>
+        <td>0.7</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#bbc263b9b0d4fc03e3fc0f59d375588a1efcf4e7" class="src_link" title="app/controllers/images_controller.rb">app/controllers/images_controller.rb</a></td>
+        <td class="red strong">35.0 %</td>
+        <td>35</td>
+        <td>20</td>
         <td>7</td>
+        <td>13</td>
+        <td>0.4</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#58148196d71cabfa47796a156f95a8e7557b9f8e" class="src_link" title="app/controllers/users_controller.rb">app/controllers/users_controller.rb</a></td>
+        <td class="red strong">60.0 %</td>
+        <td>12</td>
+        <td>5</td>
+        <td>3</td>
+        <td>2</td>
+        <td>0.6</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#f22a37881656a0997ee54d7023e8ff1113a223f2" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
       
       <tr>
-        <td class="strong"><a href="#39d9ea1c2b9cebd77efd53b07daf7de53876579c" class="src_link" title="app/controllers/users_controller.rb">app/controllers/users_controller.rb</a></td>
+        <td class="strong"><a href="#2d71c9af58f0677c621ff2f09866ec8af0f0b0ce" class="src_link" title="app/jobs/application_job.rb">app/jobs/application_job.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#3ff5575aa1a3954b6821d87ae53606e57ed59775" class="src_link" title="app/mailers/account_mailer.rb">app/mailers/account_mailer.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>3</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#62a5ab604eff521a592697a848069d6e6a5d4cbc" class="src_link" title="app/mailers/application_mailer.rb">app/mailers/application_mailer.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>5</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#a678f401904dacf2e5f5802653963221b16fd2e4" class="src_link" title="app/models/application_record.rb">app/models/application_record.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#5324719d75d846f5f1812fb2777d8a7e922d190d" class="src_link" title="app/models/image.rb">app/models/image.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>11</td>
         <td>6</td>
-        <td>2</td>
-        <td>2</td>
+        <td>6</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
       
       <tr>
-        <td class="strong"><a href="#6b51fdf79a0e47806fd71aad9e43e3e99f1d33b3" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
+        <td class="strong"><a href="#9cf6d0616fac1d189cf43fbae9b856310f1ecf59" class="src_link" title="app/models/user.rb">app/models/user.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>2</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#cc437b4c1ae76b84d40267819bff4bb4f11cf317" class="src_link" title="app/jobs/application_job.rb">app/jobs/application_job.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>2</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#508a098345be0737136f5bf7ceafa7f0f6599938" class="src_link" title="app/mailers/application_mailer.rb">app/mailers/application_mailer.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>4</td>
-        <td>3</td>
-        <td>3</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#66a3ff093c07094bed1365a3a55646d4c9313fbb" class="src_link" title="app/models/application_record.rb">app/models/application_record.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>3</td>
-        <td>2</td>
-        <td>2</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#43871c38c3391b6030fad7ddbce3e9847739b8e1" class="src_link" title="app/models/image.rb">app/models/image.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td>9</td>
         <td>5</td>
-        <td>4</td>
-        <td>4</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#5d9bc5921d3cf97151a58994c76186af83d73c7a" class="src_link" title="app/models/user.rb">app/models/user.rb</a></td>
-        <td class="green strong">100.0 %</td>
         <td>5</td>
-        <td>4</td>
-        <td>4</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
       
       <tr>
-        <td class="strong"><a href="#787edced4f3aa31c106faa37436d56c1f0bbc571" class="src_link" title="config/application.rb">config/application.rb</a></td>
+        <td class="strong"><a href="#d6e2de819a7f5b96884b01f59cb0a6b94e52b386" class="src_link" title="config/application.rb">config/application.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>25</td>
         <td>13</td>
@@ -171,7 +181,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#0f4ea7b78d5350541a4073f991e3d38cd98f50dd" class="src_link" title="config/boot.rb">config/boot.rb</a></td>
+        <td class="strong"><a href="#f3df47c4707d60b713a6abf1c9e40a4ae5b2d265" class="src_link" title="config/boot.rb">config/boot.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>3</td>
         <td>2</td>
@@ -181,7 +191,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#5aa8203bb052b0023be5d7bc69840c577978fb3f" class="src_link" title="config/environment.rb">config/environment.rb</a></td>
+        <td class="strong"><a href="#0ee827cc2585f396c2a7f1500fdc8db4795b2f58" class="src_link" title="config/environment.rb">config/environment.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>5</td>
         <td>2</td>
@@ -191,7 +201,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#13ce274706ca9e84200a12b82bd640558fdaa035" class="src_link" title="config/environments/test.rb">config/environments/test.rb</a></td>
+        <td class="strong"><a href="#6e5dbeacf7cee49e4c003de06816808b35d285fd" class="src_link" title="config/environments/test.rb">config/environments/test.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>42</td>
         <td>12</td>
@@ -201,7 +211,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#66c7761b680671a70456173013e689dd4352b2a5" class="src_link" title="config/initializers/application_controller_renderer.rb">config/initializers/application_controller_renderer.rb</a></td>
+        <td class="strong"><a href="#fe9064c2667af17bc036a4b400475d40a6f274c2" class="src_link" title="config/initializers/application_controller_renderer.rb">config/initializers/application_controller_renderer.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>6</td>
         <td>0</td>
@@ -211,7 +221,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#970f030b24e7045ca36205b150d603d4b24b1769" class="src_link" title="config/initializers/assets.rb">config/initializers/assets.rb</a></td>
+        <td class="strong"><a href="#49727d00650449301d4fa6c864152abe6fcba535" class="src_link" title="config/initializers/assets.rb">config/initializers/assets.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>11</td>
         <td>1</td>
@@ -221,7 +231,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#9d46f69e0aaa74d421088d5076b7399ffa4e8154" class="src_link" title="config/initializers/backtrace_silencers.rb">config/initializers/backtrace_silencers.rb</a></td>
+        <td class="strong"><a href="#53b3058e359a21cc5428f866ecd7c9835f67d124" class="src_link" title="config/initializers/backtrace_silencers.rb">config/initializers/backtrace_silencers.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>7</td>
         <td>0</td>
@@ -231,7 +241,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#f5360b0a978aa767881fb22959e52998225e054c" class="src_link" title="config/initializers/cookies_serializer.rb">config/initializers/cookies_serializer.rb</a></td>
+        <td class="strong"><a href="#89788be1235607caff5f9e8bf91a1abf0e5c36ff" class="src_link" title="config/initializers/cookies_serializer.rb">config/initializers/cookies_serializer.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>5</td>
         <td>1</td>
@@ -241,7 +251,17 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#637c1a3996fa946b3646cddfbb8a356eda160448" class="src_link" title="config/initializers/filter_parameter_logging.rb">config/initializers/filter_parameter_logging.rb</a></td>
+        <td class="strong"><a href="#c39d03616b43785b7a8f8b66e44c73523029663e" class="src_link" title="config/initializers/devise.rb">config/initializers/devise.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>274</td>
+        <td>14</td>
+        <td>14</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#b087b820776f0b8f799450d95375242e0791c175" class="src_link" title="config/initializers/filter_parameter_logging.rb">config/initializers/filter_parameter_logging.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>4</td>
         <td>1</td>
@@ -251,7 +271,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#598750883bc75a30b2caa50b7b382bc17f45bc9e" class="src_link" title="config/initializers/inflections.rb">config/initializers/inflections.rb</a></td>
+        <td class="strong"><a href="#b482d80195de3a8323919353654173c59271caba" class="src_link" title="config/initializers/inflections.rb">config/initializers/inflections.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>16</td>
         <td>0</td>
@@ -261,7 +281,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#457c6dc63bea8f21f61d0a9f3382e5f404885c8d" class="src_link" title="config/initializers/mime_types.rb">config/initializers/mime_types.rb</a></td>
+        <td class="strong"><a href="#e54a1fb3201b97d6a4e8f11349a55a996c7fed45" class="src_link" title="config/initializers/mime_types.rb">config/initializers/mime_types.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>4</td>
         <td>0</td>
@@ -271,7 +291,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#8231fc23255e804ecc8a885f039bd49ffbc43cc6" class="src_link" title="config/initializers/new_framework_defaults.rb">config/initializers/new_framework_defaults.rb</a></td>
+        <td class="strong"><a href="#ec120cc01d3fbfe17db58833f46cc19ac17f9264" class="src_link" title="config/initializers/new_framework_defaults.rb">config/initializers/new_framework_defaults.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>24</td>
         <td>6</td>
@@ -281,7 +301,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#5943ae295228241c0316635b6d6421b35040e621" class="src_link" title="config/initializers/session_store.rb">config/initializers/session_store.rb</a></td>
+        <td class="strong"><a href="#01a5753a34ec1a86a7e2793d2536db8bf5533b0a" class="src_link" title="config/initializers/session_store.rb">config/initializers/session_store.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>3</td>
         <td>1</td>
@@ -291,7 +311,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#b6596eba92c53d9fa3bc49a8ffb81b28f1359a76" class="src_link" title="config/initializers/wrap_parameters.rb">config/initializers/wrap_parameters.rb</a></td>
+        <td class="strong"><a href="#c0c94db8342ef1abcf68e85b35906d5efd4299b6" class="src_link" title="config/initializers/wrap_parameters.rb">config/initializers/wrap_parameters.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>14</td>
         <td>2</td>
@@ -301,37 +321,57 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#2fe5a3f2f998e0384842ffd48e2fc260fc4fca8a" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
+        <td class="strong"><a href="#4e968e5b5cdc3fe25326b912c10f64b07a280b35" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>9</td>
+        <td>5</td>
+        <td>5</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#e918a1f2ff7737f58e09a0dadafb4703bf4046dc" class="src_link" title="spec/factories.rb">spec/factories.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>36</td>
+        <td>8</td>
+        <td>8</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#a2226ab447803560e412506be688406cef6c2f9b" class="src_link" title="spec/features/signin_pages_spec.rb">spec/features/signin_pages_spec.rb</a></td>
+        <td class="red strong">50.0 %</td>
+        <td>17</td>
         <td>8</td>
         <td>4</td>
         <td>4</td>
-        <td>0</td>
-        <td>1.0</td>
+        <td>0.5</td>
       </tr>
       
       <tr>
-        <td class="strong"><a href="#69089fb711a3902c37cd4430c9eef791051786db" class="src_link" title="spec/factories.rb">spec/factories.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>35</td>
-        <td>7</td>
-        <td>7</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#b80d17c0b03beb7826f7afbf56a92014da1d95b3" class="src_link" title="spec/features/view_image_pages_spec.rb">spec/features/view_image_pages_spec.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td class="strong"><a href="#a348e8a68d8d240930eaccb90aad456c4a3cdf8b" class="src_link" title="spec/features/view_image_pages_spec.rb">spec/features/view_image_pages_spec.rb</a></td>
+        <td class="red strong">57.14 %</td>
         <td>10</td>
         <td>7</td>
-        <td>7</td>
-        <td>0</td>
-        <td>1.0</td>
+        <td>4</td>
+        <td>3</td>
+        <td>0.6</td>
       </tr>
       
       <tr>
-        <td class="strong"><a href="#c8569c980d20ef5b2b4d5216383c9bb0fe1c89ca" class="src_link" title="spec/models/image_spec.rb">spec/models/image_spec.rb</a></td>
+        <td class="strong"><a href="#c5448744e25f5eaae881035a9dbaf80db132298f" class="src_link" title="spec/models/image_spec.rb">spec/models/image_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>6</td>
+        <td>4</td>
+        <td>4</td>
+        <td>0</td>
+        <td>1.5</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#bd1fc45a3a53c0ba716cc3d691685712bcecd380" class="src_link" title="spec/models/user_spec.rb">spec/models/user_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>7</td>
         <td>5</td>
@@ -341,21 +381,11 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#31473c8b4723b43a4e55187e3e694f3503e8974e" class="src_link" title="spec/models/user_spec.rb">spec/models/user_spec.rb</a></td>
+        <td class="strong"><a href="#4634ea14e59d4abb2e82cbaa5e15b7c1a73efb8d" class="src_link" title="spec/rails_helper.rb">spec/rails_helper.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>7</td>
-        <td>5</td>
-        <td>5</td>
-        <td>0</td>
-        <td>1.6</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#3d8d43297d618b94d392721312bf2bb32b1d086b" class="src_link" title="spec/rails_helper.rb">spec/rails_helper.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>65</td>
-        <td>16</td>
-        <td>16</td>
+        <td>69</td>
+        <td>19</td>
+        <td>19</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -376,7 +406,7 @@
     
       <div class="source_files">
       
-        <div class="source_table" id="2467f6da0ec3d165687bcbe501624bd2ca82c069">
+        <div class="source_table" id="0b2983e0444fae50ff9f1ad3ccc885a9801b7dd7">
   <div class="header">
     <h3>app/channels/application_cable/channel.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -418,7 +448,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="f59e0189e25f53e8e7a9822f7f56220bd31ccf96">
+        <div class="source_table" id="4e09c5e19c96d4630907cb9fa54e38d673f08217">
   <div class="header">
     <h3>app/channels/application_cable/connection.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -460,14 +490,14 @@
   </pre>
 </div>
       
-        <div class="source_table" id="7363bc8322f61371d61512a9975b2a9048dde158">
+        <div class="source_table" id="b3ecf14e13f2cdce714e797d3c6c1dd5fe629e2a">
   <div class="header">
     <h3>app/controllers/application_controller.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">71.43 %</span> covered</h4>
     <div>
-      <b>2</b> relevant lines. 
-      <span class="green"><b>2</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>7</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
   </div>
   
@@ -489,6 +519,60 @@
         <li class="never" data-hits="" data-linenumber="3">
           
           
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  before_filter :configure_permitted_parameters, if: :devise_controller?</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  protected</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def configure_permitted_parameters</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
+          
+          <code class="ruby">      devise_parameter_sanitizer.permit(:sign_up) { |u| u.permit(:name, :email, :password) }</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="10">
+          
+          
+          <code class="ruby">      devise_parameter_sanitizer.permit(:account_update) { |u| u.permit(:name, :email, :password, :current_password) }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
           <code class="ruby">end</code>
         </li>
       
@@ -496,14 +580,14 @@
   </pre>
 </div>
       
-        <div class="source_table" id="28b01e488ff41786a4f249c22a295d25c0bcca3f">
+        <div class="source_table" id="bbc263b9b0d4fc03e3fc0f59d375588a1efcf4e7">
   <div class="header">
     <h3>app/controllers/images_controller.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">35.0 %</span> covered</h4>
     <div>
-      <b>7</b> relevant lines. 
+      <b>20</b> relevant lines. 
       <span class="green"><b>7</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <span class="red"><b>13</b> lines missed.</span>
     </div>
   </div>
   
@@ -522,22 +606,250 @@
           <code class="ruby">  def index</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="3">
           
-          <code class="ruby">    @images = Image.all</code>
+          
+          <code class="ruby">    @images = Image.order(&#39;created_at&#39;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="4">
           
-          <code class="ruby">    render :index</code>
+          
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="5">
           
           
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def new</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="7">
+          
+          
+          <code class="ruby">    @image = Image.new</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
           <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def create</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="12">
+          
+          
+          <code class="ruby">    @image = Image.new(image_params)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="13">
+          
+          
+          <code class="ruby">    @image.user = current_user</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="14">
+          
+          
+          <code class="ruby">    binding.pry</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="15">
+          
+          
+          <code class="ruby">    if @image.save</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="16">
+          
+          
+          <code class="ruby">      flash[:notice] = &quot;Image uploaded successfully&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="17">
+          
+          
+          <code class="ruby">      render :new</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">    else</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="19">
+          
+          
+          <code class="ruby">      flash[:alert] = &quot;There was a problem, please try again&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="20">
+          
+          
+          <code class="ruby">      render :new</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="24">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def show</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="25">
+          
+          
+          <code class="ruby">    @user = User.find(params[:user_id])</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="26">
+          
+          
+          <code class="ruby">    @image = Image.find(params[:id])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="29">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  private</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="31">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def image_params</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="32">
+          
+          
+          <code class="ruby">    params.require(:image).permit(:image, :title, :user_id)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="34">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="35">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="58148196d71cabfa47796a156f95a8e7557b9f8e">
+  <div class="header">
+    <h3>app/controllers/users_controller.rb</h3>
+    <h4><span class="red">60.0 %</span> covered</h4>
+    <div>
+      <b>5</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class UsersController &lt; ApplicationController</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def index</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -549,19 +861,19 @@
         <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
-          <code class="ruby">  def show</code>
+          <code class="ruby">  def create</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="8">
           
-          <code class="ruby">    @user = User.find(params[:user_id])</code>
+          
+          <code class="ruby">    binding.pry</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="9">
           
-          <code class="ruby">    @image = Image.find(params[:id])</code>
+          
+          <code class="ruby">    User.find(current_user).send_confirmation_instructions</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
@@ -586,61 +898,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="39d9ea1c2b9cebd77efd53b07daf7de53876579c">
-  <div class="header">
-    <h3>app/controllers/users_controller.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>2</b> relevant lines. 
-      <span class="green"><b>2</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
-    </div>
-  </div>
-  
-  <pre>
-    <ol>
-      
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class UsersController &lt; ApplicationController</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def index</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby">    </code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-    </ol>
-  </pre>
-</div>
-      
-        <div class="source_table" id="6b51fdf79a0e47806fd71aad9e43e3e99f1d33b3">
+        <div class="source_table" id="f22a37881656a0997ee54d7023e8ff1113a223f2">
   <div class="header">
     <h3>app/helpers/application_helper.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -670,7 +928,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="cc437b4c1ae76b84d40267819bff4bb4f11cf317">
+        <div class="source_table" id="2d71c9af58f0677c621ff2f09866ec8af0f0b0ce">
   <div class="header">
     <h3>app/jobs/application_job.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -700,7 +958,43 @@
   </pre>
 </div>
       
-        <div class="source_table" id="508a098345be0737136f5bf7ceafa7f0f6599938">
+        <div class="source_table" id="3ff5575aa1a3954b6821d87ae53606e57ed59775">
+  <div class="header">
+    <h3>app/mailers/account_mailer.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>1</b> relevant lines. 
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class AccountMailer &lt; ActionMailer::Base</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="62a5ab604eff521a592697a848069d6e6a5d4cbc">
   <div class="header">
     <h3>app/mailers/application_mailer.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -726,13 +1020,19 @@
           <code class="ruby">  default from: &#39;from@example.com&#39;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby">  </code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
           <code class="ruby">  layout &#39;mailer&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="never" data-hits="" data-linenumber="5">
           
           
           <code class="ruby">end</code>
@@ -742,7 +1042,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="66a3ff093c07094bed1365a3a55646d4c9313fbb">
+        <div class="source_table" id="a678f401904dacf2e5f5802653963221b16fd2e4">
   <div class="header">
     <h3>app/models/application_record.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -778,13 +1078,13 @@
   </pre>
 </div>
       
-        <div class="source_table" id="43871c38c3391b6030fad7ddbce3e9847739b8e1">
+        <div class="source_table" id="5324719d75d846f5f1812fb2777d8a7e922d190d">
   <div class="header">
     <h3>app/models/image.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -804,10 +1104,10 @@
           <code class="ruby">  belongs_to :user</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="3">
           
-          <code class="ruby">  validates :title, :presence =&gt; true</code>
+          
+          <code class="ruby">  # validates :title, :presence =&gt; true</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="4">
@@ -816,7 +1116,43 @@
           <code class="ruby">  validates :user_id, :presence =&gt; true</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="5">
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates :title, :presence =&gt; true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  has_attached_file :image, :styles =&gt; { :medium =&gt; &quot;300x300&gt;&quot;, :thumb =&gt; &quot;100x100#&quot;}, :default_url =&gt; &quot;/images/:style/missing.png&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates_attachment_content_type :image, content_type: /\Aimage\/.*\z/</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">end</code>
@@ -826,13 +1162,13 @@
   </pre>
 </div>
       
-        <div class="source_table" id="5d9bc5921d3cf97151a58994c76186af83d73c7a">
+        <div class="source_table" id="9cf6d0616fac1d189cf43fbae9b856310f1ecf59">
   <div class="header">
     <h3>app/models/user.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -846,25 +1182,49 @@
           <code class="ruby">class User &lt; ActiveRecord::Base</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="2">
           
-          <code class="ruby">  has_many :images</code>
+          
+          <code class="ruby">  # Include default devise modules. Others available are:</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="3">
           
-          <code class="ruby">  validates :name, :presence =&gt; true</code>
+          
+          <code class="ruby">  # :confirmable, :lockable, :timeoutable and :omniauthable</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  validates :email, :presence =&gt; true</code>
+          <code class="ruby">  devise :database_authenticatable, :registerable,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">         :recoverable, :rememberable, :trackable, :validatable, :confirmable</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  has_many :images</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates :name, :presence =&gt; true</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates :email, :presence =&gt; true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
           
           
           <code class="ruby">end</code>
@@ -874,7 +1234,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="787edced4f3aa31c106faa37436d56c1f0bbc571">
+        <div class="source_table" id="d6e2de819a7f5b96884b01f59cb0a6b94e52b386">
   <div class="header">
     <h3>config/application.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1042,7 +1402,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="0f4ea7b78d5350541a4073f991e3d38cd98f50dd">
+        <div class="source_table" id="f3df47c4707d60b713a6abf1c9e40a4ae5b2d265">
   <div class="header">
     <h3>config/boot.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1078,7 +1438,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="5aa8203bb052b0023be5d7bc69840c577978fb3f">
+        <div class="source_table" id="0ee827cc2585f396c2a7f1500fdc8db4795b2f58">
   <div class="header">
     <h3>config/environment.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1126,7 +1486,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="13ce274706ca9e84200a12b82bd640558fdaa035">
+        <div class="source_table" id="6e5dbeacf7cee49e4c003de06816808b35d285fd">
   <div class="header">
     <h3>config/environments/test.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1396,7 +1756,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="66c7761b680671a70456173013e689dd4352b2a5">
+        <div class="source_table" id="fe9064c2667af17bc036a4b400475d40a6f274c2">
   <div class="header">
     <h3>config/initializers/application_controller_renderer.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1450,7 +1810,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="970f030b24e7045ca36205b150d603d4b24b1769">
+        <div class="source_table" id="49727d00650449301d4fa6c864152abe6fcba535">
   <div class="header">
     <h3>config/initializers/assets.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1534,7 +1894,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="9d46f69e0aaa74d421088d5076b7399ffa4e8154">
+        <div class="source_table" id="53b3058e359a21cc5428f866ecd7c9835f67d124">
   <div class="header">
     <h3>config/initializers/backtrace_silencers.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1594,7 +1954,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="f5360b0a978aa767881fb22959e52998225e054c">
+        <div class="source_table" id="89788be1235607caff5f9e8bf91a1abf0e5c36ff">
   <div class="header">
     <h3>config/initializers/cookies_serializer.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1642,7 +2002,1669 @@
   </pre>
 </div>
       
-        <div class="source_table" id="637c1a3996fa946b3646cddfbb8a356eda160448">
+        <div class="source_table" id="c39d03616b43785b7a8f8b66e44c73523029663e">
+  <div class="header">
+    <h3>config/initializers/devise.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>14</b> relevant lines. 
+      <span class="green"><b>14</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># Use this hook to configure devise mailer, warden hooks and so forth.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"># Many of these configuration options can be set straight in your model.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Devise.setup do |config|</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">  # The secret key used by Devise. Devise uses this key to generate</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">  # random tokens. Changing this key will render invalid all existing</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">  # confirmation, reset password and unlock tokens in the database.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">  # Devise will use the `secret_key_base` as its `secret_key`</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">  # by default. You can change it below and use your own secret key.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">  # config.secret_key = &#39;7230406de377691fce393889e4d751876cd141c3bcfe98e1c2aba50e32dc8ff833409f9a709a868a46b3bbc4db1c5b8ca90720697b4ec8e2d4a1ba09f437e899&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  # ==&gt; Mailer Configuration</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">  # Configure the e-mail address which will be shown in Devise::Mailer,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">  # note that it will be overwritten if you use your own mailer class</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">  # with default &quot;from&quot; parameter.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.mailer_sender = &#39;please-change-me-at-config-initializers-devise@example.com&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">  # Configure the class responsible to send e-mails.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">  # config.mailer = &#39;Devise::Mailer&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">  # Configure the parent class responsible to send e-mails.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">  # config.parent_mailer = &#39;ActionMailer::Base&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">  # ==&gt; ORM configuration</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">  # Load and configure the ORM. Supports :active_record (default) and</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">  # :mongoid (bson_ext recommended) by default. Other ORMs may be</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby">  # available as additional gems.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="27">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  require &#39;devise/orm/active_record&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby">  # ==&gt; Configuration for any authentication mechanism</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
+          
+          
+          <code class="ruby">  # Configure which keys are used when authenticating a user. The default is</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="31">
+          
+          
+          <code class="ruby">  # just :email. You can configure it to use [:username, :subdomain], so for</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="32">
+          
+          
+          <code class="ruby">  # authenticating a user, both parameters are required. Remember that those</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby">  # parameters are used only when authenticating and not when retrieving from</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="34">
+          
+          
+          <code class="ruby">  # session. If you need permissions, you should implement that in a before filter.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="35">
+          
+          
+          <code class="ruby">  # You can also supply a hash where the value is a boolean determining whether</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="36">
+          
+          
+          <code class="ruby">  # or not authentication should be aborted when the value is not present.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="37">
+          
+          
+          <code class="ruby">  # config.authentication_keys = [:email]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="39">
+          
+          
+          <code class="ruby">  # Configure parameters from the request object used for authentication. Each entry</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby">  # given should be a request method and it will automatically be passed to the</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="41">
+          
+          
+          <code class="ruby">  # find_for_authentication method and considered in your model lookup. For instance,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="42">
+          
+          
+          <code class="ruby">  # if you set :request_keys to [:subdomain], :subdomain will be used on authentication.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="43">
+          
+          
+          <code class="ruby">  # The same considerations mentioned for authentication_keys also apply to request_keys.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="44">
+          
+          
+          <code class="ruby">  # config.request_keys = []</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="45">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
+          
+          
+          <code class="ruby">  # Configure which authentication keys should be case-insensitive.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
+          
+          
+          <code class="ruby">  # These keys will be downcased upon creating or modifying a user and when used</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby">  # to authenticate or find a user. Default is :email.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="49">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.case_insensitive_keys = [:email]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby">  # Configure which authentication keys should have whitespace stripped.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
+          
+          
+          <code class="ruby">  # These keys will have whitespace before and after removed upon creating or</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="53">
+          
+          
+          <code class="ruby">  # modifying a user and when used to authenticate or find a user. Default is :email.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="54">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.strip_whitespace_keys = [:email]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="56">
+          
+          
+          <code class="ruby">  # Tell if authentication through request.params is enabled. True by default.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="57">
+          
+          
+          <code class="ruby">  # It can be set to an array that will enable params authentication only for the</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="58">
+          
+          
+          <code class="ruby">  # given strategies, for example, `config.params_authenticatable = [:database]` will</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="59">
+          
+          
+          <code class="ruby">  # enable it only for database (email + password) authentication.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="60">
+          
+          
+          <code class="ruby">  # config.params_authenticatable = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="61">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
+          
+          
+          <code class="ruby">  # Tell if authentication through HTTP Auth is enabled. False by default.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="63">
+          
+          
+          <code class="ruby">  # It can be set to an array that will enable http authentication only for the</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="64">
+          
+          
+          <code class="ruby">  # given strategies, for example, `config.http_authenticatable = [:database]` will</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="65">
+          
+          
+          <code class="ruby">  # enable it only for database authentication. The supported strategies are:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="66">
+          
+          
+          <code class="ruby">  # :database      = Support basic authentication with authentication key + password</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="67">
+          
+          
+          <code class="ruby">  # config.http_authenticatable = false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="68">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="69">
+          
+          
+          <code class="ruby">  # If 401 status code should be returned for AJAX requests. True by default.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="70">
+          
+          
+          <code class="ruby">  # config.http_authenticatable_on_xhr = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="71">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="72">
+          
+          
+          <code class="ruby">  # The realm used in Http Basic Authentication. &#39;Application&#39; by default.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="73">
+          
+          
+          <code class="ruby">  # config.http_authentication_realm = &#39;Application&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="74">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="75">
+          
+          
+          <code class="ruby">  # It will change confirmation, password recovery and other workflows</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="76">
+          
+          
+          <code class="ruby">  # to behave the same regardless if the e-mail provided was right or wrong.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="77">
+          
+          
+          <code class="ruby">  # Does not affect registerable.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="78">
+          
+          
+          <code class="ruby">  # config.paranoid = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="79">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="80">
+          
+          
+          <code class="ruby">  # By default Devise will store the user in session. You can skip storage for</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="81">
+          
+          
+          <code class="ruby">  # particular strategies by setting this option.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="82">
+          
+          
+          <code class="ruby">  # Notice that if you are skipping storage for all authentication paths, you</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="83">
+          
+          
+          <code class="ruby">  # may want to disable generating routes to Devise&#39;s sessions controller by</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="84">
+          
+          
+          <code class="ruby">  # passing skip: :sessions to `devise_for` in your config/routes.rb</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="85">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.skip_session_storage = [:http_auth]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="86">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="87">
+          
+          
+          <code class="ruby">  # By default, Devise cleans up the CSRF token on authentication to</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="88">
+          
+          
+          <code class="ruby">  # avoid CSRF token fixation attacks. This means that, when using AJAX</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="89">
+          
+          
+          <code class="ruby">  # requests for sign in and sign up, you need to get a new CSRF token</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="90">
+          
+          
+          <code class="ruby">  # from the server. You can disable this option at your own risk.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="91">
+          
+          
+          <code class="ruby">  # config.clean_up_csrf_token_on_authentication = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="92">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="93">
+          
+          
+          <code class="ruby">  # When false, Devise will not attempt to reload routes on eager load.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="94">
+          
+          
+          <code class="ruby">  # This can reduce the time taken to boot the app but if your application</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="95">
+          
+          
+          <code class="ruby">  # requires the Devise mappings to be loaded during boot time the application</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="96">
+          
+          
+          <code class="ruby">  # won&#39;t boot properly.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="97">
+          
+          
+          <code class="ruby">  # config.reload_routes = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="98">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="99">
+          
+          
+          <code class="ruby">  # ==&gt; Configuration for :database_authenticatable</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="100">
+          
+          
+          <code class="ruby">  # For bcrypt, this is the cost for hashing the password and defaults to 11. If</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="101">
+          
+          
+          <code class="ruby">  # using other algorithms, it sets how many times you want the password to be hashed.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="102">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="103">
+          
+          
+          <code class="ruby">  # Limiting the stretches to just one in testing will increase the performance of</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="104">
+          
+          
+          <code class="ruby">  # your test suite dramatically. However, it is STRONGLY RECOMMENDED to not use</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="105">
+          
+          
+          <code class="ruby">  # a value less than 10 in other environments. Note that, for bcrypt (the default</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="106">
+          
+          
+          <code class="ruby">  # algorithm), the cost increases exponentially with the number of stretches (e.g.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="107">
+          
+          
+          <code class="ruby">  # a value of 20 is already extremely slow: approx. 60 seconds for 1 calculation).</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="108">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.stretches = Rails.env.test? ? 1 : 11</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="109">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="110">
+          
+          
+          <code class="ruby">  # Set up a pepper to generate the hashed password.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="111">
+          
+          
+          <code class="ruby">  # config.pepper = &#39;da3c24d1dcd66e63d432c19fd96537e4c3feb818d0910d4a52300a6e417bba3cd65fed70b1fc9ee669f75c5fdb66bbd42be376cc45b4ac58ac58c2a46710c64f&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="112">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="113">
+          
+          
+          <code class="ruby">  # Send a notification email when the user&#39;s password is changed</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="114">
+          
+          
+          <code class="ruby">  # config.send_password_change_notification = false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="115">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="116">
+          
+          
+          <code class="ruby">  # ==&gt; Configuration for :confirmable</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="117">
+          
+          
+          <code class="ruby">  # A period that the user is allowed to access the website even without</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="118">
+          
+          
+          <code class="ruby">  # confirming their account. For instance, if set to 2.days, the user will be</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="119">
+          
+          
+          <code class="ruby">  # able to access the website for two days without confirming their account,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="120">
+          
+          
+          <code class="ruby">  # access will be blocked just in the third day. Default is 0.days, meaning</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="121">
+          
+          
+          <code class="ruby">  # the user cannot access the website without confirming their account.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="122">
+          
+          
+          <code class="ruby">  # config.allow_unconfirmed_access_for = 2.days</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="123">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="124">
+          
+          
+          <code class="ruby">  # A period that the user is allowed to confirm their account before their</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="125">
+          
+          
+          <code class="ruby">  # token becomes invalid. For example, if set to 3.days, the user can confirm</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="126">
+          
+          
+          <code class="ruby">  # their account within 3 days after the mail was sent, but on the fourth day</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="127">
+          
+          
+          <code class="ruby">  # their account can&#39;t be confirmed with the token any more.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="128">
+          
+          
+          <code class="ruby">  # Default is nil, meaning there is no restriction on how long a user can take</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="129">
+          
+          
+          <code class="ruby">  # before confirming their account.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="130">
+          
+          
+          <code class="ruby">  # config.confirm_within = 3.days</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="131">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="132">
+          
+          
+          <code class="ruby">  # If true, requires any email changes to be confirmed (exactly the same way as</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="133">
+          
+          
+          <code class="ruby">  # initial account confirmation) to be applied. Requires additional unconfirmed_email</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="134">
+          
+          
+          <code class="ruby">  # db field (see migrations). Until confirmed, new email is stored in</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="135">
+          
+          
+          <code class="ruby">  # unconfirmed_email column, and copied to email column on successful confirmation.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="136">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.reconfirmable = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="137">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="138">
+          
+          
+          <code class="ruby">  # Defines which key will be used when confirming an account</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="139">
+          
+          
+          <code class="ruby">  # config.confirmation_keys = [:email]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="140">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="141">
+          
+          
+          <code class="ruby">  # ==&gt; Configuration for :rememberable</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="142">
+          
+          
+          <code class="ruby">  # The time the user will be remembered without asking for credentials again.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="143">
+          
+          
+          <code class="ruby">  # config.remember_for = 2.weeks</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="144">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="145">
+          
+          
+          <code class="ruby">  # Invalidates all the remember me tokens when the user signs out.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="146">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.expire_all_remember_me_on_sign_out = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="147">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="148">
+          
+          
+          <code class="ruby">  # If true, extends the user&#39;s remember period when remembered via cookie.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="149">
+          
+          
+          <code class="ruby">  # config.extend_remember_period = false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="150">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="151">
+          
+          
+          <code class="ruby">  # Options to be passed to the created cookie. For instance, you can set</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="152">
+          
+          
+          <code class="ruby">  # secure: true in order to force SSL only cookies.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="153">
+          
+          
+          <code class="ruby">  # config.rememberable_options = {}</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="154">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="155">
+          
+          
+          <code class="ruby">  # ==&gt; Configuration for :validatable</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="156">
+          
+          
+          <code class="ruby">  # Range for password length.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="157">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.password_length = 6..128</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="158">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="159">
+          
+          
+          <code class="ruby">  # Email regex used to validate email formats. It simply asserts that</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="160">
+          
+          
+          <code class="ruby">  # one (and only one) @ exists in the given string. This is mainly</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="161">
+          
+          
+          <code class="ruby">  # to give user feedback and not to assert the e-mail validity.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="162">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.email_regexp = /\A[^@\s]+@[^@\s]+\z/</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="163">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="164">
+          
+          
+          <code class="ruby">  # ==&gt; Configuration for :timeoutable</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="165">
+          
+          
+          <code class="ruby">  # The time you want to timeout the user session without activity. After this</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="166">
+          
+          
+          <code class="ruby">  # time the user will be asked for credentials again. Default is 30 minutes.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="167">
+          
+          
+          <code class="ruby">  # config.timeout_in = 30.minutes</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="168">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="169">
+          
+          
+          <code class="ruby">  # ==&gt; Configuration for :lockable</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="170">
+          
+          
+          <code class="ruby">  # Defines which strategy will be used to lock an account.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="171">
+          
+          
+          <code class="ruby">  # :failed_attempts = Locks an account after a number of failed attempts to sign in.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="172">
+          
+          
+          <code class="ruby">  # :none            = No lock strategy. You should handle locking by yourself.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="173">
+          
+          
+          <code class="ruby">  # config.lock_strategy = :failed_attempts</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="174">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="175">
+          
+          
+          <code class="ruby">  # Defines which key will be used when locking and unlocking an account</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="176">
+          
+          
+          <code class="ruby">  # config.unlock_keys = [:email]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="177">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="178">
+          
+          
+          <code class="ruby">  # Defines which strategy will be used to unlock an account.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="179">
+          
+          
+          <code class="ruby">  # :email = Sends an unlock link to the user email</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="180">
+          
+          
+          <code class="ruby">  # :time  = Re-enables login after a certain amount of time (see :unlock_in below)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="181">
+          
+          
+          <code class="ruby">  # :both  = Enables both strategies</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="182">
+          
+          
+          <code class="ruby">  # :none  = No unlock strategy. You should handle unlocking by yourself.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="183">
+          
+          
+          <code class="ruby">  # config.unlock_strategy = :both</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="184">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="185">
+          
+          
+          <code class="ruby">  # Number of authentication tries before locking an account if lock_strategy</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="186">
+          
+          
+          <code class="ruby">  # is failed attempts.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="187">
+          
+          
+          <code class="ruby">  # config.maximum_attempts = 20</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="188">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="189">
+          
+          
+          <code class="ruby">  # Time interval to unlock the account if :time is enabled as unlock_strategy.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="190">
+          
+          
+          <code class="ruby">  # config.unlock_in = 1.hour</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="191">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="192">
+          
+          
+          <code class="ruby">  # Warn on the last attempt before the account is locked.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="193">
+          
+          
+          <code class="ruby">  # config.last_attempt_warning = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="194">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="195">
+          
+          
+          <code class="ruby">  # ==&gt; Configuration for :recoverable</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="196">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="197">
+          
+          
+          <code class="ruby">  # Defines which key will be used when recovering the password for an account</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="198">
+          
+          
+          <code class="ruby">  # config.reset_password_keys = [:email]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="199">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="200">
+          
+          
+          <code class="ruby">  # Time interval you can reset your password with a reset password key.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="201">
+          
+          
+          <code class="ruby">  # Don&#39;t put a too small interval or your users won&#39;t have the time to</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="202">
+          
+          
+          <code class="ruby">  # change their passwords.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="203">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.reset_password_within = 6.hours</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="204">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="205">
+          
+          
+          <code class="ruby">  # When set to false, does not sign a user in automatically after their password is</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="206">
+          
+          
+          <code class="ruby">  # reset. Defaults to true, so a user is signed in automatically after a reset.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="207">
+          
+          
+          <code class="ruby">  # config.sign_in_after_reset_password = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="208">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="209">
+          
+          
+          <code class="ruby">  # ==&gt; Configuration for :encryptable</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="210">
+          
+          
+          <code class="ruby">  # Allow you to use another hashing or encryption algorithm besides bcrypt (default).</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="211">
+          
+          
+          <code class="ruby">  # You can use :sha1, :sha512 or algorithms from others authentication tools as</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="212">
+          
+          
+          <code class="ruby">  # :clearance_sha1, :authlogic_sha512 (then you should set stretches above to 20</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="213">
+          
+          
+          <code class="ruby">  # for default behavior) and :restful_authentication_sha1 (then you should set</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="214">
+          
+          
+          <code class="ruby">  # stretches to 10, and copy REST_AUTH_SITE_KEY to pepper).</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="215">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="216">
+          
+          
+          <code class="ruby">  # Require the `devise-encryptable` gem when using anything other than bcrypt</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="217">
+          
+          
+          <code class="ruby">  # config.encryptor = :sha512</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="218">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="219">
+          
+          
+          <code class="ruby">  # ==&gt; Scopes configuration</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="220">
+          
+          
+          <code class="ruby">  # Turn scoped views on. Before rendering &quot;sessions/new&quot;, it will first check for</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="221">
+          
+          
+          <code class="ruby">  # &quot;users/sessions/new&quot;. It&#39;s turned off by default because it&#39;s slower if you</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="222">
+          
+          
+          <code class="ruby">  # are using only default views.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="223">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.scoped_views = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="224">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="225">
+          
+          
+          <code class="ruby">  # Configure the default scope given to Warden. By default it&#39;s the first</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="226">
+          
+          
+          <code class="ruby">  # devise role declared in your routes (usually :user).</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="227">
+          
+          
+          <code class="ruby">  # config.default_scope = :user</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="228">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="229">
+          
+          
+          <code class="ruby">  # Set this configuration to false if you want /users/sign_out to sign out</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="230">
+          
+          
+          <code class="ruby">  # only the current scope. By default, Devise signs out all scopes.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="231">
+          
+          
+          <code class="ruby">  # config.sign_out_all_scopes = true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="232">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="233">
+          
+          
+          <code class="ruby">  # ==&gt; Navigation configuration</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="234">
+          
+          
+          <code class="ruby">  # Lists the formats that should be treated as navigational. Formats like</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="235">
+          
+          
+          <code class="ruby">  # :html, should redirect to the sign in page when the user does not have</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="236">
+          
+          
+          <code class="ruby">  # access, but formats like :xml or :json, should return 401.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="237">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="238">
+          
+          
+          <code class="ruby">  # If you have any extra navigational formats, like :iphone or :mobile, you</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="239">
+          
+          
+          <code class="ruby">  # should add them to the navigational formats lists.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="240">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="241">
+          
+          
+          <code class="ruby">  # The &quot;*/*&quot; below is required to match Internet Explorer requests.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="242">
+          
+          
+          <code class="ruby">  # config.navigational_formats = [&#39;*/*&#39;, :html]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="243">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="244">
+          
+          
+          <code class="ruby">  # The default HTTP method used to sign out a resource. Default is :delete.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="245">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  config.sign_out_via = :delete</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="246">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="247">
+          
+          
+          <code class="ruby">  # ==&gt; OmniAuth</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="248">
+          
+          
+          <code class="ruby">  # Add a new OmniAuth provider. Check the wiki for more information on setting</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="249">
+          
+          
+          <code class="ruby">  # up on your models and hooks.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="250">
+          
+          
+          <code class="ruby">  # config.omniauth :github, &#39;APP_ID&#39;, &#39;APP_SECRET&#39;, scope: &#39;user,public_repo&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="251">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="252">
+          
+          
+          <code class="ruby">  # ==&gt; Warden configuration</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="253">
+          
+          
+          <code class="ruby">  # If you want to use other strategies, that are not supported by Devise, or</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="254">
+          
+          
+          <code class="ruby">  # change the failure app, you can configure them inside the config.warden block.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="255">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="256">
+          
+          
+          <code class="ruby">  # config.warden do |manager|</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="257">
+          
+          
+          <code class="ruby">  #   manager.intercept_401 = false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="258">
+          
+          
+          <code class="ruby">  #   manager.default_strategies(scope: :user).unshift :some_external_strategy</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="259">
+          
+          
+          <code class="ruby">  # end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="260">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="261">
+          
+          
+          <code class="ruby">  # ==&gt; Mountable engine configurations</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="262">
+          
+          
+          <code class="ruby">  # When using Devise inside an engine, let&#39;s call it `MyEngine`, and this engine</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="263">
+          
+          
+          <code class="ruby">  # is mountable, there are some extra configurations to be taken into account.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="264">
+          
+          
+          <code class="ruby">  # The following options are available, assuming the engine is mounted as:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="265">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="266">
+          
+          
+          <code class="ruby">  #     mount MyEngine, at: &#39;/my_engine&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="267">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="268">
+          
+          
+          <code class="ruby">  # The router that invoked `devise_for`, in the example above, would be:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="269">
+          
+          
+          <code class="ruby">  # config.router_name = :my_engine</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="270">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="271">
+          
+          
+          <code class="ruby">  # When using OmniAuth, Devise cannot automatically set OmniAuth path,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="272">
+          
+          
+          <code class="ruby">  # so you need to do it manually. For the users scope, it would be:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="273">
+          
+          
+          <code class="ruby">  # config.omniauth_path_prefix = &#39;/my_engine/users/auth&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="274">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="b087b820776f0b8f799450d95375242e0791c175">
   <div class="header">
     <h3>config/initializers/filter_parameter_logging.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1684,7 +3706,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="598750883bc75a30b2caa50b7b382bc17f45bc9e">
+        <div class="source_table" id="b482d80195de3a8323919353654173c59271caba">
   <div class="header">
     <h3>config/initializers/inflections.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1798,7 +3820,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="457c6dc63bea8f21f61d0a9f3382e5f404885c8d">
+        <div class="source_table" id="e54a1fb3201b97d6a4e8f11349a55a996c7fed45">
   <div class="header">
     <h3>config/initializers/mime_types.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -1840,7 +3862,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="8231fc23255e804ecc8a885f039bd49ffbc43cc6">
+        <div class="source_table" id="ec120cc01d3fbfe17db58833f46cc19ac17f9264">
   <div class="header">
     <h3>config/initializers/new_framework_defaults.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -2002,7 +4024,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="5943ae295228241c0316635b6d6421b35040e621">
+        <div class="source_table" id="01a5753a34ec1a86a7e2793d2536db8bf5533b0a">
   <div class="header">
     <h3>config/initializers/session_store.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -2038,7 +4060,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="b6596eba92c53d9fa3bc49a8ffb81b28f1359a76">
+        <div class="source_table" id="c0c94db8342ef1abcf68e85b35906d5efd4299b6">
   <div class="header">
     <h3>config/initializers/wrap_parameters.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -2140,13 +4162,13 @@
   </pre>
 </div>
       
-        <div class="source_table" id="2fe5a3f2f998e0384842ffd48e2fc260fc4fca8a">
+        <div class="source_table" id="4e968e5b5cdc3fe25326b912c10f64b07a280b35">
   <div class="header">
     <h3>config/routes.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -2169,34 +4191,40 @@
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
+          <code class="ruby">  devise_for :users</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
           <code class="ruby">  root :to =&gt; &#39;images#index&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="never" data-hits="" data-linenumber="5">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
+        <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
           <code class="ruby">  resources :users do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
+        <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
           <code class="ruby">    resources :images</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="never" data-hits="" data-linenumber="9">
           
           
           <code class="ruby">end</code>
@@ -2206,13 +4234,13 @@
   </pre>
 </div>
       
-        <div class="source_table" id="69089fb711a3902c37cd4430c9eef791051786db">
+        <div class="source_table" id="e918a1f2ff7737f58e09a0dadafb4703bf4046dc">
   <div class="header">
     <h3>spec/factories.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>7</b> relevant lines. 
-      <span class="green"><b>7</b> lines covered</span> and
+      <b>8</b> relevant lines. 
+      <span class="green"><b>8</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -2280,22 +4308,22 @@
           <code class="ruby">    email(&quot;Susan@testemail.com&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">  end</code>
+          <code class="ruby">    password(&#39;123456&#39;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
           
           
-          <code class="ruby">end</code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="13">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
@@ -2331,100 +4359,106 @@
         <li class="never" data-hits="" data-linenumber="19">
           
           
-          <code class="ruby"># FactoryGirl.define do</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
           
           
-          <code class="ruby">#   factory(:image) do</code>
+          <code class="ruby"># FactoryGirl.define do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="21">
           
           
-          <code class="ruby">#     title(&#39;Picture of Rocks&#39;)</code>
+          <code class="ruby">#   factory(:image) do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="22">
           
           
-          <code class="ruby">#     user</code>
+          <code class="ruby">#     title(&#39;Picture of Rocks&#39;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="23">
           
           
-          <code class="ruby">#   end</code>
+          <code class="ruby">#     user</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
           
           
-          <code class="ruby">#</code>
+          <code class="ruby">#   end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="25">
           
           
-          <code class="ruby">#   factory(:user) do</code>
+          <code class="ruby">#</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="26">
           
           
-          <code class="ruby">#     name(&quot;Susan&quot;)</code>
+          <code class="ruby">#   factory(:user) do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="27">
           
           
-          <code class="ruby">#     email(&quot;Susan@testemail.com&quot;)</code>
+          <code class="ruby">#     name(&quot;Susan&quot;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="28">
           
           
-          <code class="ruby">#</code>
+          <code class="ruby">#     email(&quot;Susan@testemail.com&quot;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="29">
           
           
-          <code class="ruby">#     factory :user_with_images do</code>
+          <code class="ruby">#</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="30">
           
           
-          <code class="ruby">#       transient do</code>
+          <code class="ruby">#     factory :user_with_images do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="31">
           
           
-          <code class="ruby">#         images_count 5</code>
+          <code class="ruby">#       transient do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="32">
           
           
-          <code class="ruby">#       end</code>
+          <code class="ruby">#         images_count 5</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="33">
           
           
-          <code class="ruby">#     end</code>
+          <code class="ruby">#       end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="34">
           
           
-          <code class="ruby">#   end</code>
+          <code class="ruby">#     end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="35">
+          
+          
+          <code class="ruby">#   end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="36">
           
           
           <code class="ruby"># end</code>
@@ -2434,14 +4468,134 @@
   </pre>
 </div>
       
-        <div class="source_table" id="b80d17c0b03beb7826f7afbf56a92014da1d95b3">
+        <div class="source_table" id="a2226ab447803560e412506be688406cef6c2f9b">
+  <div class="header">
+    <h3>spec/features/signin_pages_spec.rb</h3>
+    <h4><span class="red">50.0 %</span> covered</h4>
+    <div>
+      <b>8</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>4</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &#39;GET new&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &quot;signs in a user&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    user = FactoryGirl.create(:user)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">    # Mimic the router behavior of setting the Devise scope through the env.</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="7">
+          
+          
+          <code class="ruby">    @request.env[&#39;devise.mapping&#39;] = Devise.mappings[:user]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">    # Use the sign_in helper to sign in a fixture `User` record.</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="10">
+          
+          
+          <code class="ruby">    binding.pry</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="11">
+          
+          
+          <code class="ruby">    sign_in users(user)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="13">
+          
+          
+          <code class="ruby">    get :new</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">    # assert something</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="a348e8a68d8d240930eaccb90aad456c4a3cdf8b">
   <div class="header">
     <h3>spec/features/view_image_pages_spec.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">57.14 %</span> covered</h4>
     <div>
       <b>7</b> relevant lines. 
-      <span class="green"><b>7</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>3</b> lines missed.</span>
     </div>
   </div>
   
@@ -2478,20 +4632,20 @@
           <code class="ruby">      image = FactoryGirl.create(:image)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="6">
+          
           
           <code class="ruby">      visit root_url</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="7">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="7">
+          
           
           <code class="ruby">      click_link image.title</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="8">
+          
           
           <code class="ruby">      expect(page).to have_content(image.title)</code>
         </li>
@@ -2512,13 +4666,13 @@
   </pre>
 </div>
       
-        <div class="source_table" id="c8569c980d20ef5b2b4d5216383c9bb0fe1c89ca">
+        <div class="source_table" id="c5448744e25f5eaae881035a9dbaf80db132298f">
   <div class="header">
     <h3>spec/models/image_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>5</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
+      <b>4</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -2553,16 +4707,10 @@
         <li class="covered" data-hits="2" data-linenumber="5">
           <span class="hits">2</span>
           
-          <code class="ruby">  it { should validate_presence_of :title }</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="6">
-          <span class="hits">2</span>
-          
           <code class="ruby">  it { should belong_to :user }</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="never" data-hits="" data-linenumber="6">
           
           
           <code class="ruby">end</code>
@@ -2572,7 +4720,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="31473c8b4723b43a4e55187e3e694f3503e8974e">
+        <div class="source_table" id="bd1fc45a3a53c0ba716cc3d691685712bcecd380">
   <div class="header">
     <h3>spec/models/user_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -2632,13 +4780,13 @@
   </pre>
 </div>
       
-        <div class="source_table" id="3d8d43297d618b94d392721312bf2bb32b1d086b">
+        <div class="source_table" id="4634ea14e59d4abb2e82cbaa5e15b7c1a73efb8d">
   <div class="header">
     <h3>spec/rails_helper.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>16</b> relevant lines. 
-      <span class="green"><b>16</b> lines covered</span> and
+      <b>19</b> relevant lines. 
+      <span class="green"><b>19</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -2988,49 +5136,73 @@
           <code class="ruby">  # config.filter_gems_from_backtrace(&quot;gem name&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="58">
+        <li class="covered" data-hits="1" data-linenumber="58">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">end</code>
+          <code class="ruby">  config.include Devise::Test::IntegrationHelpers, type: :feature</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="59">
+        <li class="covered" data-hits="1" data-linenumber="59">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">  config.include Devise::Test::ControllerHelpers, type: :controller</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="60">
           <span class="hits">1</span>
           
+          <code class="ruby">  config.include Devise::Test::ControllerHelpers, type: :view</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="61">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="63">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="64">
+          <span class="hits">1</span>
+          
           <code class="ruby">Shoulda::Matchers.configure do |config|</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="61">
+        <li class="covered" data-hits="1" data-linenumber="65">
           <span class="hits">1</span>
           
           <code class="ruby">  config.integrate do |with|</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="62">
+        <li class="covered" data-hits="1" data-linenumber="66">
           <span class="hits">1</span>
           
           <code class="ruby">    with.test_framework :rspec</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="63">
+        <li class="covered" data-hits="1" data-linenumber="67">
           <span class="hits">1</span>
           
           <code class="ruby">    with.library :rails</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="64">
+        <li class="never" data-hits="" data-linenumber="68">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="65">
+        <li class="never" data-hits="" data-linenumber="69">
           
           
           <code class="ruby">end</code>
