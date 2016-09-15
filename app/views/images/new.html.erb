@@ -1,7 +1,7 @@
 <h1>Upload a New Image</h1>
 
-<%= form_for @image, url: new_user_image_path(current_user, @image), method: "put" do |f|%>
-
+<%= form_for [current_user, @image] do |f|%>
+  <!-- <%= token_tag form_authenticity_token %> -->
   <div class="form-group">
       <%= f.label :image, class: 'control-label'  %>
       <div class="col-sm-6">

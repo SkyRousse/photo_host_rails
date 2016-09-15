@@ -8,13 +8,16 @@ class ImagesController < ApplicationController
   end
 
   def create
+
     @image = Image.new(image_params)
+    @image.user = current_user
+    binding.pry
     if @image.save
       flash[:notice] = "Image uploaded successfully"
-      render new
+      render :new
     else
       flash[:alert] = "There was a problem, please try again"
-      render new
+      render :new
     end
   end
 
@@ -26,7 +29,7 @@ class ImagesController < ApplicationController
   private
 
   def image_params
-    params.require(:image).permit(:image, :title)
+    params.require(:image).permit(:image, :title, :user_id)
   end
 
 end
